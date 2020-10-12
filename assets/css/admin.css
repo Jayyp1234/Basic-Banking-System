@@ -1,0 +1,45 @@
+body{
+    background-color: #f3f7f9 !important;
+}
+section{
+    position: relative;
+    width: 100%;
+    top: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: pink;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.260417) 79.17%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+}
+section h2{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    font-family: "Open Sans Regular";
+    font-size: 25px;
+    color: #75849a;
+}
+section h4{
+    text-align: center;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+section span{
+    color: grey;
+    font-family: "Futura", sans-serif;
+    font-size: 80%;
+}
+section p{
+    font-size: 40px;
+    margin: 10px;
+    font-weight: 600;
+    font-family: "Open Sans Regular"
+}
+@media all and (max-width:  530px){
+    section p{
+    font-size: 30px;
+}
+}
